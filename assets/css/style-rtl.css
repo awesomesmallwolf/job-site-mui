@@ -1,0 +1,165 @@
+/* === DIRECTION RTL === */
+body {direction: rtl; text-align: right;}
+.head-actions {margin-left: 0; margin-right: 10px;}
+.head-actions > li {margin-left: 0; margin-right: 8px;}
+.category-label:after {margin-left: 0; margin-right: 5px;}
+.category-box {margin-left: 0; margin-right: 20px;}
+.dropdown-menu {left: auto; right: 0;}
+.dd-menu > li > a {padding-right: 0; padding-left: 1rem;}
+.dd-menu > li > a:after {left: 2px; right: auto; transform: rotate(-135deg);}
+.header-image-box {text-align: left;}
+.form-style:focus ~ .input-placeholder, .form-style:not(:placeholder-shown) ~ .input-placeholder {left: auto; right: 2px;}
+.list-icon {margin-right: 0; margin-left: 1rem;}
+.find-form-right {margin-left: 0; margin-right: 20px;}
+.find-col + .find-col {border-left: none; border-right: 1px solid rgb(224, 224, 224);}
+.btn i {float: left;}
+.section-header > .heading-main, .section-header > .section-header-left { float: right;}
+.section-header > .explore-btn {float: left;}
+.icon-arrow-right:after {transform: rotate(-135deg);}
+.btn .icon-arrow-right {margin-left: 0; margin-right: 5px; margin-top: 7px;}
+.thumb-group {margin-right: 0; margin-left: 5px;}
+.nav {padding-right: 0;}
+.card-body .nav-pills .nav-item:not(:last-child) {margin-right: 0; margin-left: 10px;}
+.step-no {float: right;}
+.step-no + .spet-info {margin-left: 0; margin-right: 80px;}
+.time-box {left: auto; right: 20px;}
+.media-item {margin-right: 0; margin-left: 35px;}
+.services-inner {float: left;}
+.services-tab-nav {left: auto; right: 510px;}
+.check-list > li {padding-left: 0; padding-right: 28px;}
+.check-list > li:before {left: auto; right: 0;}
+.f-socials > li {margin-left: 0; margin-right: 10px;}
+.f-socials {text-align: left;}
+.copyright-text {margin-right: 0; margin-left: 1rem;}
+.icon-plus {top: 0;}
+.header-find-box .find-main-col .suggetions-panel {left: auto; right: 0;}
+.profile-action-item {margin-left: 0; margin-right: 0.75rem;}
+.btn-action .btn-icon {float: none;}
+.select-menu-box .icon {float: right;}
+.profile-info-right {padding-left: 0; padding-right: 20px;}
+.profile-meta-item {margin-right: 0; margin-left: 60px;}
+.profile-left {margin-right: 0; margin-left: 20px;}
+.user-thumb {margin-right: 0; margin-left: 1rem;}
+.user-rating-box {float: right;}
+.review-title-box .title {margin-right: 0; margin-left: 10px;}
+.icon-loading {margin-right: 0; margin-left: 5px;}
+.exp-logo {margin-left: 1rem; margin-right: 0;}
+.exp-meta-item {margin-right: 0; margin-left: 45px;}
+.label .label-dot {margin-right: -7px; margin-left: 5px;}
+.project-item-label .label {margin-right: 0; margin-left: 6px;}
+.listing-rating-box {float: right;}
+.filter-items {padding-right: 0;}
+.listing-thumb {right: 20px; left: 0;}
+.listing-rate {float: left;}
+.listing-actions > li + li {margin-left: 0; margin-right: 12px;}
+.checkbox-list > li {text-align: right;}
+.checkbox span {padding-left: 0; padding-right: 35px;}
+.checkbox span:before {left: auto; right: 0;}
+.checkbox span:after {left: auto; right: 9px;}
+.filter-dropdown {left: auto; right: 0;}
+.search-box {padding-right: 45px; padding-left: 18px;}
+.search-box .icon-search {left: auto; right: 15px;}
+.skills-tag {text-align: right;}
+.dd-menu > li > a, .dd-nav > li > a, .dd-header-box {text-align: right;}
+.dd-left {border-left: 1px solid rgb(224, 224, 224); border-right: none;}
+.online-status {right: auto; left: 6px;}
+.suggetions-panel {left: auto; right: -10px;}
+.icon-login-with {left: auto; right: 20px;}
+.pwd-toggle, .pwd-toggle2 {left: 10px; right: auto;}
+.modal-close {right: auto; left: 15px;}
+.banner-form-box {margin-right: auto;}
+.menu-get-started {right: auto; left: 25px;}
+.media-left {padding-right: 0; padding-left: 20px;}
+.boxes-outer > .row > div + div {border-left: none; border-right: 1px solid rgba(212, 231, 254, 0.6);}
+.cta-caption {margin-right: auto;}
+.faq-left {margin-right: 0; margin-left: 50px;}
+.faq-title {padding-right: 0; padding-left: 30px;}
+.faq-title:after {right: auto; left: 15px;}
+.item-icon {left: auto; right: 20px;}
+.faces-box > div {border-left: none; border-right: 1px solid rgb(237, 237, 237);}
+.text-cols > div {border-right: none; border-left: 1px solid #eee;}
+.text-cols > div:nth-child(3n+3) {border-left: none;}
+.text-col {text-align: right;}
+.quote-content-text {margin-left: 0; margin-right: -200px;}
+.header-search-inner .form-control {padding-left: 40px; padding-right: .75rem;}
+.btn-search {left: 10px; right: auto;}
+.s-col-box {margin-right: 0; margin-left: 2rem;}
+.listing-media-left {margin-right: 0; margin-left: 12px;}
+.why-ureed-left, .form-left {padding-right: 0; padding-left: 50px;}
+.launch-media-box {margin-left: 0; margin-right: 20px;}
+.details-data-left {margin-right: 0; margin-left: 20px;}
+.signup-right-bg {right: auto; left: 0;}
+.quote-box-main {margin-left: 0; margin-right: auto;}
+.account-type-radio > span img {margin-right: 0; margin-left: 10px;}
+.contact-left {margin-right: 0; margin-left: 2rem;}
+.menu > li:not(:last-child) {margin-right: 0; margin-left: 2rem;}
+.project-posted-by {background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(249, 249, 249) 100%);}
+.postedby-meta-item {margin-right: 0; margin-left: 35px;}
+.posted-by .thumb {margin-right: 0; margin-left: 5px;}
+.project-list-actions {right: auto; left: 20px;}
+.dash-head-search {
+    margin-right: 0;
+    margin-left: 0.5rem;
+    padding-right: ;
+    padding-left: 0.5rem;
+    border-right: none;
+    border-left: 1px solid #ddd;
+}
+.dash-user-item {margin-left: 0; margin-right: 0.5rem;}
+.dash-user-item .user-thumb {margin-right: 0; margin-left: 0;}
+.profile-left {margin-left: 0; margin-right: 20px;}
+.employer-info-left .user-thumb {margin-right: 30px; margin-left: 1rem;}
+.doc-info-left {margin-right: 0; margin-left: 20px;}
+.icon-alert-box {margin-right: 0; margin-left: 1.5rem;}
+
+.dashboard-full-main .profile-left {margin-left: 20px; margin-right: 0px;}
+.toggle-checkbox, .edit-right {float: left;}
+
+@media(max-width: 1199px){
+    .cat-close {right: auto !important; left: 0 !important;}
+    .why-ureed-left {padding-left: 0;}
+    .form-left {padding-left: 0;}
+}
+@media(max-width: 991px){
+    .navbar-toggler { left: auto; right: 0;}
+    .navbar-brand {margin-left: 0 !important; margin-right: 30px;}
+    .primary-nav {left: auto; right: -300px;}
+    .nav_active .primary-nav {right: 0;}
+    .find-col + .find-col {border-right: none;}
+    .find-form-right {margin-right: 0;}
+    .card-body .nav-pills .nav-item:not(:last-child) {margin-left: 0;}
+    .media-item {margin-left: 0;}    
+    .services-inner {float: none;}
+    .services-inner {padding-bottom: 300px !important;}
+    .profile-action-item {margin-right: 0 !important; margin-left: 10px !important;}
+    .suggetions-panel {right: 0;}
+    .nav-dots {margin-left: 0; margin-right: -10px;}
+    .menu-get-started {float: left !important;}
+    .media-left {padding-left: 0;}
+    .text-cols > div {border-left: none;}
+    .details-data-left {margin-left: 0;}
+    .contact-left {margin-left: 0;}
+    .menu > li:not(:last-child) {margin-left: 0;}
+    .dashboard-main-menu .nav-dots {right: auto; left: 15px;}
+    .profile-action-item {
+        margin-right: 10px !important;
+        margin-left: 0 !important;
+    }
+    .profile-left {margin-right: 0;}
+}
+@media(max-width: 767px){
+    .f-socials {text-align: center;}
+    .f-socials > li {margin-right: 5px; margin-left: 5px;}
+    .boxes-outer > .row > div + div {border-right: none;}
+}
+@media(max-width: 575px){
+    .category-box {margin-left: 0 !important; margin-right: 10px !important;}
+    .launch-media-box {margin-left: 0 !important; margin-right: 10px;}
+    .profile-action-item {
+        margin-right: 0px !important;
+        margin-left: 5px !important;
+    }
+}
+@media(max-width: 479px){
+    .profile-info-right {padding-right: 0;}
+}
