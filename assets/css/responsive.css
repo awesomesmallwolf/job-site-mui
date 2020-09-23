@@ -345,6 +345,10 @@
     .dashboard-profile-listing .postedby-meta-item:first-child {flex: auto;}
     .dashboard-profile-listing .posted-location {padding-left: 20px; position: relative;}
     .dashboard-profile-listing .posted-location .icon-location {position: absolute; left: 0; top: 1px;}
+    .welcome-box-inner {display: block; text-align: center;}
+    .welcome-left {margin-bottom: 1.5rem;}
+    .invite-left {padding-right: 0;}
+    .invite-main-box {display: block;}
 }
 @media(max-width: 575px){
     .faces-box > div {max-width: 50%; padding: 0; border: none;}
@@ -355,6 +359,13 @@
     .launch-media-box {margin-left: 10px;}
     .heading-main.xl2 {font-size: 2.5rem;}
     .modal-info-full .modal-box {width: 100%;}
+    .profile-top-right .btn {display: block;}
+    .project-meta-box-inner {flex-wrap: wrap;}
+    .user-meta-item {min-width: 50%; max-width: 50%;}
+    .user-meta-item:nth-child(3) {padding-left: 0; border-left: none; margin-top: 20px;}
+    .user-meta-item:nth-child(4) {margin-top: 20px;}
+    .dashboard-full-main .project-tab-panel .menu {display: block;}
+    .dash-head-search {display: none !important;}
 }
 @media(max-width: 479px){
     .fact-info br {display: none;}

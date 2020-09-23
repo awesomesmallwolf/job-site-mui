@@ -38,7 +38,7 @@ body {padding-top: 90px;}
 .nav-item {font-weight: 500;}
 .nav-item .nav-link {min-height: 44px; padding: 0.975rem .75rem .5rem; border-radius: 4px; transition: .2s;}
 .nav-item .nav-link:hover {color: var(--color-primary); background-color: rgb(240, 240, 240);}
-.btn {min-height: 44px; border-radius: 4px; font-weight: 700; font-size: 1rem; padding: .6125rem 1rem .5rem;}
+.btn {min-height: 44px; border-radius: 4px; font-weight: 700; font-size: 1rem; padding: .75rem 1rem .5rem .5rem;}
 .btn-lg {min-height: 50px; font-size: 1rem;}
 .btn-outline-dark, .btn-outline-primary {border: 1px solid rgb(224, 224, 224);}
 .btn-outline-dark {padding-top: 0.6125rem;}
@@ -1522,13 +1522,10 @@ padding: 7px;
 .postedby-meta-item {font-size: .875rem; color: #7d7d7d; margin-right: 35px;}
 .postedby-meta-item .icon-location {opacity: .6; vertical-align: middle; position: relative; top: -2px;}
 .project-list-inner {position: relative;}
-@media(min-width: 992px){
-    .project-list-actions {position: absolute; right: 20px; top: 25px; transition: .2s; opacity: 1;}
-    .project-list-item:hover .project-list-actions {opacity: 1;}
-}
-@media(max-width: 991px){
-    .project-list-actions {margin-top: 20px;}
-}
+
+.project-list-actions {position: absolute; right: 20px; top: 25px; transition: .2s; opacity: 1;}
+.project-list-item:hover .project-list-actions {opacity: 1;}
+
 .load-more-card {border: none; margin-bottom: 50px;}
 .profile-full {padding-bottom: 1px;}
 .load-more-main {text-align: center; padding: 10px;}
@@ -1824,3 +1821,83 @@ color: var(--color-blak);
 .dropdown-content li:not(:first-child) a {border-top: 1px solid #ddd;}
 .card {margin: 0; box-shadow: none;}
 .container {width: 100%;}
+.more-items {}
+.more-items .dropdown-trigger {width: 44px; height: 44px;}
+.more-items .dropdown-trigger .material-icons {font-size: 1.75rem;}
+.engaged-employer-box .user-thumb {border-radius: 8px;}
+.engaged-employer-box .profile-name {font-size: 1.125rem;}
+.engaged-employer-box .profile-des {font-size: .875rem;}
+.jobs-count {font-size: .75rem; font-weight: 500;}
+.icon-folder {display: inline-block; width: 16px; height: 16px; margin-right: 1px; background: url(../images/folder-icon.png) center center no-repeat; background-size: 16px auto; vertical-align: middle; position: relative; top: -2px;}
+.rating-jobs-box .listing-rating-box {margin-right: 15px;}
+.engaged-employer-box .user-item:not(:first-child) {margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #ddd;}
+.engaged-employer-box .user-item {margin-bottom: 0;}
+.verified-logo {width: 84px; height: 20px; background: url(../images/icon-verified.png) center center no-repeat; background-size: 100% auto; display: inline-block; vertical-align: middle; margin-left: 5px;}
+.btn-flat-outer {margin-left: -1rem;}
+.btn-search-action {min-width: 50px !important;}
+.btn-search-outer {min-width: auto;}
+.profile-meta-listing > li {list-style: none; width: 49%; vertical-align: top; display: inline-block;}
+.profile-meta-list {font-size: .75rem;}
+.profile-meta-list:after {content: ''; display: block; clear: both;}
+.profile-meta-icon {display: inline-block; position: relative; top: -4px; width: 17px; height: 17px; float: left; margin-right: 5px;}
+.profile-meta-icon img {max-width: 100%;}
+.profile-meta-listing {margin-bottom: 0;}
+.profile-meta-list {margin-top: 1rem;}
+.profile-meta-list strong {font-weight: 700;}
+.box-header-style {background-color: rgb(240, 240, 240); border-bottom: none; border-radius: 4px 4px 0 0;}
+.add-detail-btn {font-size: 1rem; color: #000 !important; font-weight: 500; text-decoration: none !important;}
+.add-detail-btn .btn-floating {margin-right: 10px;}
+.btn-floating {background-color: var(--color-primary) !important; box-shadow: none !important;}
+.invite-action-box {text-align: center;}
+.invite-action-box .btn {width: 100%; display: block;}
+.trial-text {padding: 15px 0;}
+.btn-light:not(:hover) {color: var(--color-primary) !important; background-color: #e7f1ff !important;}
+.collaborate-icon {max-width: 48px; min-width: 48px; margin-right: 1rem;}
+.collaborate-info .para-text {font-size: .875rem;}
+.collaborate-list > li {list-style: none; margin-bottom: 1rem;}
+.welcome-left .heading-main {margin-bottom: 0;}
+.project-meta-item {
+    color: rgb(125, 125, 125);
+    font-size: .875rem;
+}
+.project-meta-count {display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+.dot-icon {display: block;
+    width: 8px;
+height: 8px;
+background: rgb(207, 207, 207);
+border-radius: 4px;
+position: absolute; right: -15px;
+top: 0;
+}
+.dot-icon.dot-green {background-color: #37b58e;}
+.dot-icon.dot-grey {background-color: rgb(207, 207, 207)}
+.dot-icon.dot-black {background-color: #434343}
+.dot-icon.dot-blue {background-color: #006df5}
+.user-meta-item {flex: 1;
+    color: rgb(125, 125, 125);
+    font-size: .875rem;
+    padding-right: 10px;
+}
+.user-meta-item:not(:first-child) {border-left: 1px solid #ddd; padding-left: 40px;}
+.invite-list-left {max-width: 32px; min-width: 32px; margin-right: 12px;}
+.invite-list > li {margin-top: 1.5rem;}
+.input-style, input[type=text]:not(.browser-default).input-style {
+background: rgb(255, 255, 255);
+border: 1px solid rgb(224, 224, 224) !important;
+border-radius: 4px;
+padding: 10px !important;
+max-width: 100%;
+box-sizing: border-box;
+font-size: .875rem !important;
+}
+.form-box label {color: #000;}
+.form-box .input-field {margin-top: 0;}
+.form-box {margin-bottom: 1.5rem;}
+.invite-list {max-width: 350px;}
+.invite-left {padding-right: 20px;}

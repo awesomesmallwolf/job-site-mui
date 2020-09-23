@@ -125,258 +125,335 @@ viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="pres
 <main class="main-full">
     <div class="profile-top-full">
         <div class="container">
-            <div class="profile-top-inner d-flex align-items-center">
+            <div class="profile-top-inner d-flex align-items-center detail-page-top-inner">
                 <div class="profile-top-left flex-auto">
                     <ul class="breadcrumb-nav">
                         <li><a href="#">Ureed</a></li>
-                        <li><a href="#">Dashborad</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Find projecrs</a></li>
                     </ul>
-                    <div class="heading-main">Projects</div>
+                    <div class="heading-main">Project Details</div>
                 </div>
                 <div class="profile-top-right">
-                    <a href="#" class="btn btn-flat">Rehire Freelancer</a>
-                    <a href="#" class="btn waves-effect waves-light"><i class="material-icons">add</i> Post a New Project</a>                    
-                </div>
-            </div>
-            <div class="menu-full-outer dashboard-main-menu">
-                <span class="nav-dots nav-actions">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
-                <div class="menu-full">
-                    <ul class="menu">
-                        <li class="active"><a href="#"><span class="badges">5</span> Open Projects</a></li>
-                        <li><a href="#">Closed projects</a></li>
-                        <li><a href="#">Draft projects</a></li>
-                        <li><a href="#">Compeleted projects</a></li>
-                    </ul>
+                    <a href="#" class="btn btn-flat">Review Pitches (3 New)</a>
+                    <a href="#" class="btn waves-effect waves-light">Invite Freelancers</a>   
+                    <span class="more-items">
+                        <!-- Dropdown Trigger -->
+                        <a class="dropdown-trigger btn" href="#" data-target="dropdown1"><i class="material-icons">more_vert</i></a>
+                        <!-- Dropdown Structure -->
+                        <ul id='dropdown1' class='dropdown-content'>
+                            <li><a href="#!">Edit project</a></li>
+                            <li><a href="#!">Delete Project</a></li>
+                            <li><a href="#!">Reuse Project</a></li>
+                            <li><a href="#!">Pause Project</a></li>
+                        </ul>
+                    </span>                 
                 </div>
             </div>
         </div>
     </div>
-    <div class="profile-full">
-        <div class="find-panel-full">
-            <div class="container">
-                <div class="find-panel-inner">
-                    <form>
-                        <div class="find-form-box flex">
-                            <div class="find-form-left flex-auto">
-                                <div class="row find-row">
-                                    <div class="col find-col find-main-col">
-                                        <div class="input-box">
-                                            <input type="text" class="form-style" value="Product Manager, Designer" placeholder=" ">
-                                            <span class="input-placeholder">Search projects</span>
-                                            <span class="input-focus"></span>
+    <div class="project-detail-full profile-full">
+        <div class="container">            
+            <div class="project-detail-full-main d-flex">
+                <div class="profile-right project-detail-data flex-auto">
+                    <div class="box">
+                        <div class="box-body">
+                            <div class="detail-data-group">
+                                <div class="heading">Translator is needed to work on an internal document</div>
+                                <div class="para-text text-small">
+                                    <p> We're looking for an experienced technical translator to *{project specifics, including type of content/media and specific outputs}*. Translation needed for *{length of asset: hours of audio / characters of text}*. </p>
+                                    <p>
+                                        This project requires experience with: <br /> 
+                                        - Experience with *{language-to-language}* technical translation work <br />
+                                        - Experience translating *{type of content/media}*<br />
+                                        - *{Other requirements such as industry knowledge, certifications}*
+                                    </p>
+                                    <p>In your proposal, please share a brief summary of your experience, including examples of relevant translation work.</p>
+                                </div>
+                            </div>
+                            <div class="detail-data-group">
+                                <div class="tag-outer-box">
+                                    <div class="text-label">Skills</div>
+                                    <ul class="skills-tag">
+                                        <li><span>Arabic to English</span></li>
+                                        <li><span>English to Arabic</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="detail-data-group">
+                                <div class="title">Text you want a translation <span class="color-blue">(3000 Words count)</span></div>
+                                <div class="detail-work-data">
+                                    <div class="work-data-text">
+                                        <div class="para-text text-small">
+                                            <p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+                                                simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail-documents">
+                                    <div class="title sm">Upload documents</div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="doc-info-box flex align-items-center">
+                                                <div class="doc-info-left"><img src="assets/images/icon-pdf.png" /></div>
+                                                <div class="doc-info-data">
+                                                    <div class="title sm">Employee agree.pdf</div>
+                                                    <div class="title sm color-blue">2 MB</div>
+                                                    <div class="para-text text-small">Word count: 3242 words</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="doc-info-box flex align-items-center">
+                                                <div class="doc-info-left"><img src="assets/images/icon-doc.png" /></div>
+                                                <div class="doc-info-data">
+                                                    <div class="title sm">Employee agree.docs</div>
+                                                    <div class="title sm color-blue">3.4 MB</div>
+                                                    <div class="para-text text-small">Word count: 3242 words</div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="find-form-right btn-search-outer"><button class="btn btn-primary btn-lg btn-search-action"><i class="icon-search"><img src="assets/images/icon-search.png" alt="search"></i></button></div>
+                            <div class="detail-data-group">
+                                <div class="title sm">Job specifications</div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="more-info-text">
+                                            <div class="text-sm">Job deadline</div>
+                                            <div class="text-small"><strong>2 Day</strong> - after approval of the request</div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="more-info-text">
+                                            <div class="text-sm">Project typt</div>
+                                            <div class="text-small">Ongoing project</div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </form>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="box-header">
+                            <div class="title para-text">Freelancer Requirements</div>
+                        </div>
+                        <div class="box-body">
+                            <div class="">
+                                <div class="skills-item">                                    
+                                    <div class="title">Experience and previous industries</div>
+                                    <div class="tag-outer-box">
+                                        <ul class="skills-tag">
+                                            <li><span>Engineeing</span></li>
+                                            <li><span>Technology</span></li>
+                                            <li><span>Ventture Captial</span></li>
+                                            <li><span>Seed Funding</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="skills-item">                                    
+                                    <div class="title">Key deliverables</div>
+                                    <div class="tag-outer-box">
+                                        <ul class="skills-tag">
+                                            <li><span>Contracts</span></li>
+                                            <li><span>Agreements</span></li>
+                                            <li><span>internal Documents</span></li>
+                                            <li><span>Engineering Manuals</span></li>
+                                            <li><span>Documentation</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="skills-item">                                    
+                                    <div class="title">Translation type</div>
+                                    <div class="tag-outer-box">
+                                        <ul class="skills-tag">
+                                            <li><span>Written</span></li>
+                                            <li><span>Interpretation</span></li>
+                                            <li><span>Transcreation</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="skills-item">                                    
+                                    <div class="title">Languge combiniations</div>
+                                    <div class="tag-outer-box">
+                                        <ul class="skills-tag">
+                                            <li><span>Languges</span></li>
+                                            <li><span>Arabic</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="skills-item">                                    
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="more-info-text">
+                                                <div class="text-sm">Years of experience</div>
+                                                <div class="text-small"><strong>Beginner</strong></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="more-info-text">
+                                                <div class="text-sm">Number of freelancers</div>
+                                                <div class="text-small"><strong>1 Freelancer</strong></div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills-item">                                    
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="more-info-text">
+                                                <div class="text-sm">Job completion rate</div>
+                                                <div class="text-small"><strong>90% and above</strong></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="more-info-text">
+                                                <div class="text-sm">Education</div>
+                                                <div class="text-small"><strong>Higher degree and above</strong></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="more-info-text">
+                                                <div class="text-sm">Location preference</div>
+                                                <div class="text-small"><strong>Any location</strong></div>
+                                            </div>                                            
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="more-info-text">
+                                                <div class="text-sm">Availability</div>
+                                                <div class="text-small"><strong>More than 40 hours/week</strong></div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="box-header">
+                            <div class="title para-text">Budget</div>
+                        </div>
+                        <div class="box-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="more-info-text">
+                                        <div class="text-sm">Budget type</div>
+                                        <div class="text-small"><strong>Fixed Amount</strong></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="more-info-text">
+                                        <div class="text-sm">Expected Budget</div>
+                                        <div class="text-small color-blue"><strong>65.00 USD</strong></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-left sidebar-right">
+                    <div class="detail-sidebar-group">
+                        <div class="card">
+                            <div class="card-header"><div class="title">Share Project</div></div>
+                            <div class="card-body">
+                                <div class="share-link-outer">
+                                    <p>To share this profile, share the below link</p>
+                                    <div class="share-link-box d-flex">
+                                        <span class="share-link-title flex-auto">https://ureed.com/profile/212313</span>
+                                        <div class="share-link-action"><i class="icon-copy">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></i></div>
+                                    </div>
+                                    <div class="share-media">
+                                        <div class="row">
+                                            <div class="col-6"><div class="share-item"><i class="icon-share-item"><img src="assets/images/fb-icon.png"> </i> Facebook</div></div>
+                                            <div class="col-6"><div class="share-item"><i class="icon-share-item"><img src="assets/images/wa-icon.png"></i> Whatsapp</div></div>
+                                            <div class="col-6"><div class="share-item"><i class="icon-share-item"><img src="assets/images/tw-icon.png"></i> Twitter</div></div>
+                                            <div class="col-6"><div class="share-item"><i class="icon-share-item"><img src="assets/images/in-icon.png"></i> Linkedin</div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail-sidebar-group">
+                        <div class="card">
+                            <div class="card-header"><div class="title">Project Status</div> </div>
+                            <div class="card-body">
+                                <div class="employer-about-info">
+                                    <div class="info-item d-flex">
+                                        <div class="info-item-left flex-auto">Pitches</div>
+                                        <div class="info-item-right"><strong>+125</strong></div>
+                                    </div>
+                                    <div class="info-item d-flex">
+                                        <div class="info-item-left flex-auto">Shortlisted candidate</div>
+                                        <div class="info-item-right"><strong>2</strong></div>
+                                    </div>
+                                    <div class="info-item d-flex">
+                                        <div class="info-item-left flex-auto">Hired freelancers</div>
+                                        <div class="info-item-right"><strong>2</strong></div>
+                                    </div>
+                                    <div class="info-item d-flex">
+                                        <div class="info-item-left flex-auto">Open Positions</div>
+                                        <div class="info-item-right"><strong>2</strong></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail-sidebar-group">
+                        <div class="card">
+                            <div class="card-header"><div class="title">Engaged Freelancers</div> </div>
+                            <div class="card-body">
+                                <div class="engaged-employer-box">
+                                    <div class="user-item d-flex">
+                                        <div class="user-thumb" style="background-image: url(assets/images/user1.jpg);"></div>
+                                        <div class="user-info flex-auto">
+                                            <div class="profile-name">Sean Alva <span class="verified-logo"></span></div>
+                                            <div class="profile-des">Wordpress Developer</div>
+                                            <div class="rating-jobs-box flex">
+                                                <div class="listing-rating-box"><i class="icon-star"></i> 4.5 (45)</div>
+                                                <div class="jobs-count"><i class="icon-folder"></i> +120 Jobs</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user-item d-flex">
+                                        <div class="user-thumb" style="background-image: url(assets/images/user1.jpg);"></div>
+                                        <div class="user-info flex-auto">
+                                            <div class="profile-name">Sean Alva </div>
+                                            <div class="profile-des">Wordpress Developer</div>
+                                            <div class="rating-jobs-box flex">
+                                                <div class="listing-rating-box"><i class="icon-star"></i> 4.5 (45)</div>
+                                                <div class="jobs-count"><i class="icon-folder"></i> +120 Jobs</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail-sidebar-group">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="assets/images/hire-img.jpg" alt="hire">
+                                <div class="hire-data-box">
+                                    <div class="heading-main sm">Hire a success <br />manager</div>
+                                    <p class="para-text">Find verified freelance content writers
+                                        and translators for your business today</p>
+                                        <div class="btn-flat-outer">
+                                            <a href="#" class="btn btn-flat">Hire now</a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container">            
-            <div class="project-listing-panel">
-                <div class="my-project-group">
-                    <div class="project-list-item">
-                        <div class="project-list-inner">
-                            <div class="project-list-info">
-                                <div class="lable-outer project-item-label">
-                                    <span class="label label-green"><span class="label-dot"></span> Open Project</span> <span class="para-text text-sm posted-date">Fixed price - Posted 2 days ago</span>
-                                </div>
-                                
-                                <div class="heading">Looking Freelancer SEO Content Writer </div>
-                                <div class="para-text text-small">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ..</p>
-                                </div>
-                                <div class="tag-outer-box">
-                                    <ul class="skills-tag">
-                                        <li><span>Arabic to English</span></li>
-                                        <li><span>English to Arabic</span></li>
-                                        <li><span>English to Arabic</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="project-list-meta flex">
-                                <div class="posted-meta-item project-budget"> <strong>$349</strong> Project budge </div>
-                                <div class="posted-meta-item project-budget"> <strong>$940</strong> Biled to date </div>
-                                <div class="posted-meta-item project-pitches"> <strong class="color-green">24 - 3 new</strong> Total Pitches </div>
-                                <div class="posted-meta-item project-pitches"> <strong>3</strong> Shortlisted </div>
-                            </div>
-                            <div class="avatar-group-panel">
-                                <div class="avatar-group d-flex align-items-center">
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb thumb-add"><i class="material-icons">add</i></div></div>
-                                    <div class="add-more">Invite Freelancers More</div>
-                                </div>
-                            </div>
-                            <div class="project-list-actions">
-                                <!-- Dropdown Trigger -->
-                                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'><i class="material-icons">more_vert</i></a>
-                                <!-- Dropdown Structure -->
-                                <ul id='dropdown1' class='dropdown-content'>
-                                    <li><a href="#!">Edit project</a></li>
-                                    <li><a href="#!">Delete Project</a></li>
-                                    <li><a href="#!">Reuse Project</a></li>
-                                    <li><a href="#!">Pause Project</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-list-item">
-                        <div class="project-list-inner">
-                            <div class="project-list-info">
-                                <div class="lable-outer project-item-label">
-                                    <span class="label label-green"><span class="label-dot"></span> Open Project</span> <span class="para-text text-sm posted-date">Fixed price - Posted 2 days ago</span>
-                                </div>
-                                
-                                <div class="heading">Looking Freelancer SEO Content Writer </div>
-                                <div class="para-text text-small">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ..</p>
-                                </div>
-                                <div class="tag-outer-box">
-                                    <ul class="skills-tag">
-                                        <li><span>Arabic to English</span></li>
-                                        <li><span>English to Arabic</span></li>
-                                        <li><span>English to Arabic</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="project-list-meta flex">
-                                <div class="posted-meta-item project-budget"> <strong>$349</strong> Project budge </div>
-                                <div class="posted-meta-item project-budget"> <strong>$940</strong> Biled to date </div>
-                                <div class="posted-meta-item project-pitches"> <strong class="color-green">24 - 3 new</strong> Total Pitches </div>
-                                <div class="posted-meta-item project-pitches"> <strong>3</strong> Shortlisted </div>
-                            </div>
-                            <div class="avatar-group-panel">
-                                <div class="avatar-group d-flex align-items-center">
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb thumb-add"><i class="material-icons">add</i></div></div>
-                                    <div class="add-more">Invite Freelancers More</div>
-                                </div>
-                            </div>
-                            <div class="project-list-actions">
-                                <!-- Dropdown Trigger -->
-                                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'><i class="material-icons">more_vert</i></a>
-                                <!-- Dropdown Structure -->
-                                <ul id='dropdown1' class='dropdown-content'>
-                                    <li><a href="#!">Edit project</a></li>
-                                    <li><a href="#!">Delete Project</a></li>
-                                    <li><a href="#!">Reuse Project</a></li>
-                                    <li><a href="#!">Pause Project</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-list-item">
-                        <div class="project-list-inner">
-                            <div class="project-list-info">
-                                <div class="lable-outer project-item-label">
-                                    <span class="label label-green"><span class="label-dot"></span> Open Project</span> <span class="para-text text-sm posted-date">Fixed price - Posted 2 days ago</span>
-                                </div>
-                                
-                                <div class="heading">Looking Freelancer SEO Content Writer </div>
-                                <div class="para-text text-small">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ..</p>
-                                </div>
-                                <div class="tag-outer-box">
-                                    <ul class="skills-tag">
-                                        <li><span>Arabic to English</span></li>
-                                        <li><span>English to Arabic</span></li>
-                                        <li><span>English to Arabic</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="project-list-meta flex">
-                                <div class="posted-meta-item project-budget"> <strong>$349</strong> Project budge </div>
-                                <div class="posted-meta-item project-budget"> <strong>$940</strong> Biled to date </div>
-                                <div class="posted-meta-item project-pitches"> <strong class="color-green">24 - 3 new</strong> Total Pitches </div>
-                                <div class="posted-meta-item project-pitches"> <strong>3</strong> Shortlisted </div>
-                            </div>
-                            <div class="avatar-group-panel">
-                                <div class="avatar-group d-flex align-items-center">
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb thumb-add"><i class="material-icons">add</i></div></div>
-                                    <div class="add-more">Invite Freelancers More</div>
-                                </div>
-                            </div>
-                            <div class="project-list-actions">
-                                <!-- Dropdown Trigger -->
-                                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'><i class="material-icons">more_vert</i></a>
-                                <!-- Dropdown Structure -->
-                                <ul id='dropdown1' class='dropdown-content'>
-                                    <li><a href="#!">Edit project</a></li>
-                                    <li><a href="#!">Delete Project</a></li>
-                                    <li><a href="#!">Reuse Project</a></li>
-                                    <li><a href="#!">Pause Project</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-list-item">
-                        <div class="project-list-inner">
-                            <div class="project-list-info">
-                                <div class="lable-outer project-item-label">
-                                    <span class="label label-green"><span class="label-dot"></span> Open Project</span> <span class="para-text text-sm posted-date">Fixed price - Posted 2 days ago</span>
-                                </div>
-                                
-                                <div class="heading">Looking Freelancer SEO Content Writer </div>
-                                <div class="para-text text-small">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco ..</p>
-                                </div>
-                                <div class="tag-outer-box">
-                                    <ul class="skills-tag">
-                                        <li><span>Arabic to English</span></li>
-                                        <li><span>English to Arabic</span></li>
-                                        <li><span>English to Arabic</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="project-list-meta flex">
-                                <div class="posted-meta-item project-budget"> <strong>$349</strong> Project budge </div>
-                                <div class="posted-meta-item project-budget"> <strong>$940</strong> Biled to date </div>
-                                <div class="posted-meta-item project-pitches"> <strong class="color-green">24 - 3 new</strong> Total Pitches </div>
-                                <div class="posted-meta-item project-pitches"> <strong>3</strong> Shortlisted </div>
-                            </div>
-                            <div class="avatar-group-panel">
-                                <div class="avatar-group d-flex align-items-center">
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb" style="background-image: url(assets/images/user1.jpg);"></div></div>
-                                    <div class="avatar"><div class="thumb thumb-add"><i class="material-icons">add</i></div></div>
-                                    <div class="add-more">Invite Freelancers More</div>
-                                </div>
-                            </div>
-                            <div class="project-list-actions">
-                                <!-- Dropdown Trigger -->
-                                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'><i class="material-icons">more_vert</i></a>
-                                <!-- Dropdown Structure -->
-                                <ul id='dropdown1' class='dropdown-content'>
-                                    <li><a href="#!">Edit project</a></li>
-                                    <li><a href="#!">Delete Project</a></li>
-                                    <li><a href="#!">Reuse Project</a></li>
-                                    <li><a href="#!">Pause Project</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>  
-                    <div class="card load-more-card">
-                        <div class="load-more-main">
-                            <span class="load-more"><i class="icon-loading"></i> Load more</span>
-                        </div>
-                    </div>                  
-                </div>
-            </div>
-            
         </div>
     </div>
 </main>
@@ -1148,7 +1225,6 @@ viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="pres
     $('.dropdown-trigger').dropdown({
         alignment: 'right'
     });
-
 
     $(document).on("click", function(){
         $(".profile-suggestions").removeClass("active");
