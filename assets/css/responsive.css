@@ -153,13 +153,20 @@
     .dashboard-menu > li {display: block; margin-bottom: 1.25rem;}
     .dashboard-menu > li > a {font-size: 1rem; color: #fff; opacity: 1; font-weight: 400;}
     .dashboard-menu > li > a img {width: 32px; height: 32px; padding: 7px; background-color: #fff; border-radius: 50%; margin-right: 5px;}
-    .dashboard-main-menu.menu-full-outer {position: static; height: 0; padding: 0;} 
-    .dashboard-main-menu.menu-full-outer .menu-full {width: auto; left: 15px; right: 15px;}
+    .dashboard-main-menu.menu-full-outer:not(.menu-tab-outer) {position: static; height: 0; padding: 0;} 
     .project-detail-full-main {flex-wrap: wrap;}
     .sidebar-right {margin-left: 0;}
     .profile-actions-box .profile-action-item {margin-right: 0; margin-left: 5px;}
     .alert-right .btn {min-width: 150px;}
     .alert-box-inner {padding: 20px 30px;}
+    .menu-tab-full ul.menu {white-space: nowrap;}
+    .menu-tab-full ul.menu li {display: inline-block;}
+
+    .menu-tab-outer {height: auto !important; padding: 0 !important;}
+    .menu-tab-outer .menu {overflow: auto;}
+    .menu-tab-outer .menu > li a {padding: 10px 0 !important;}
+    .menu-tab-outer .menu > li {margin-right: 30px !important;}
+    .menu-tab-outer .menu > li:not(:last-child) {border-bottom: none;}
 }
 @media(max-width: 767px){
     .heading-large {font-size: 2.5rem;}
@@ -203,6 +210,10 @@
     .alert-box-inner {padding: 15px 20px;}
     .alert-data {display: block;}
     .alert-data-box {margin-bottom: 1rem;}
+    .profile-top-full .container {max-width: 100%;}
+    .menu-tab-outer {margin: 0 -15px;}
+    .menu-tab-outer .menu {padding: 0 15px;}
+    .pitch-info-main .pitch-actions {position: static; margin-top: 1rem; margin-left: -5px;}
 }
 @media(max-width: 699px){
     .header-search-box {display: none;}
@@ -210,6 +221,7 @@
 @media(max-width: 680px){
     .btn-new-project span {display: none;}
     .icon-plus {margin-right: 0;}
+    .profile-top-inner {display: block !important;}
 }
 @media(max-width: 575px){
     .category-box {margin-left: 10px;}
@@ -240,6 +252,9 @@
     .detail-page-top-inner {display: block !important;}
     .profile-actions-box {margin-top: 1rem;}
     .profile-actions-box .profile-action-item {margin-left: 0; margin-right: 5px;}
+    .mobile-flex {display: flex;}
+    .mobile-flex .more-items {margin-left: 10px;}
+    .pitch-info-main .pitch-actions {margin-left: 0;}
 }
 @media(max-width: 479px){
     .head-actions-box {display: none;}
@@ -252,6 +267,10 @@
     .contact-main-body {padding: 0;}
     .contact-form-body, .contact-left {padding: 20px;}
     .contact-left {margin-bottom: 1rem;}
+    .pitch-left {max-width: 40px; min-width: 40px; margin-right: 10px; height: 40px;}
+    .listing-rating-box + .location-icon-outer {margin-left: 0;}
+    .pitch-info-main .user-info > .flex {display: block;}
+    .pitch-info-main .user-info > .flex .listing-rating-box {float: none; margin-bottom: 8px;}
 }
 @media(max-width: 399px){
     .services-panel-top {background-position: left bottom;}
@@ -261,6 +280,14 @@
     .dash-nav-item {margin-left: 0;}
     .dash-head-search {padding-right: 0;}
     .dash-search-input {width: 55px;}
+    .pitch-item-inner {display: block;}
+    .pitch-left {
+        max-width: 80px;
+        min-width: 80px;
+        margin-right: 0px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
 }
 /* == NEW STYLES == */
 @media(max-width: 1399px){
@@ -313,6 +340,10 @@
     .details-data-left {margin-right: 0; margin-bottom: 2rem;}
     .dashboard-profile-listing .project-list-actions {position: absolute; top: 15px; right: 15px; margin-top: 0;}
     .dashboard-profile-listing .profile-actions-box {margin-top: 0 !important;}
+    .pro-filter-left {max-width: 100%;}
+    .project-filter-panel > .flex {display: block;}
+    .pro-filter-item {margin-left: 0; margin-right: 10px;}
+    .pro-filter-left {margin-bottom: 10px;}
 }
 @media(max-width: 767px){
     .faq-left {margin-right: 0;}
@@ -349,6 +380,8 @@
     .welcome-left {margin-bottom: 1.5rem;}
     .invite-left {padding-right: 0;}
     .invite-main-box {display: block;}
+    .pro-filter-right {display: block;}
+    .pro-filter-item {margin-right: 0; margin-top: 10px;}
 }
 @media(max-width: 575px){
     .faces-box > div {max-width: 50%; padding: 0; border: none;}
