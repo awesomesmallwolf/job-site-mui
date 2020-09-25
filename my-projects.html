@@ -138,13 +138,8 @@ viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="pres
                     <a href="#" class="btn waves-effect waves-light"><i class="material-icons">add</i> Post a New Project</a>                    
                 </div>
             </div>
-            <div class="menu-full-outer dashboard-main-menu">
-                <span class="nav-dots nav-actions">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
-                <div class="menu-full">
+            <div class="menu-full-outer dashboard-main-menu menu-tab-outer">
+                <div class="menu-tab-full">
                     <ul class="menu">
                         <li class="active"><a href="#"><span class="badges">5</span> Open Projects</a></li>
                         <li><a href="#">Closed projects</a></li>
@@ -175,6 +170,60 @@ viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="pres
                             <div class="find-form-right btn-search-outer"><button class="btn btn-primary btn-lg btn-search-action"><i class="icon-search"><img src="assets/images/icon-search.png" alt="search"></i></button></div>
                         </div>
                     </form>
+                </div>
+                <div class="card card-grey filter-card-box">
+                    <div class="card-body">
+                        <div class="project-filter-panel">
+                            <div class="flex align-items-center">
+                                <div class="pro-filter-left">
+                                    <div class="heading">45 Projects</div>
+                                    <p class="text-small para-text">Use filters to narrow down your search results</p>
+                                </div>
+                                <div class="pro-filter-right flex-auto flex">
+                                    <div class="pro-filter-item">
+                                        <select class="select-style">
+                                            <option value="" disabled selected>Project Type</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                          </select>
+                                    </div>
+                                    <div class="pro-filter-item">
+                                        <select class="select-style">
+                                            <option value="" disabled selected>Experience Level</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                          </select>
+                                    </div>
+                                    <div class="pro-filter-item">
+                                        <select class="select-style">
+                                            <option value="" disabled selected>Budget</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                          </select>
+                                    </div>
+                                    <div class="pro-filter-item">
+                                        <select class="select-style">
+                                            <option value="" disabled selected>Specialization</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                          </select>
+                                    </div>
+                                    <div class="pro-filter-item">
+                                        <select class="select-style">
+                                            <option value="" disabled selected>Location</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                          </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1148,7 +1197,9 @@ viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="pres
     $('.dropdown-trigger').dropdown({
         alignment: 'right'
     });
-
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
 
     $(document).on("click", function(){
         $(".profile-suggestions").removeClass("active");
