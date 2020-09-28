@@ -73,6 +73,7 @@
     .quote-box-main {max-width: 400px;}
     .dashboard-menu > li > a { font-size: .875rem;}
     .dashboard-menu > li > a img {height: 20px;}
+    .details-top-left {padding-top: 4px;}
 }
 @media(max-width: 991px){
     .primary-nav {position: fixed; left: 0; top: 70px; bottom: 0; background-color: var(--color-primary); color: var(--color-white); padding: 30px 20px; width: 280px; left: -300px; opacity: 0; transition: .4s;}
@@ -167,6 +168,10 @@
     .menu-tab-outer .menu > li a {padding: 10px 0 !important;}
     .menu-tab-outer .menu > li {margin-right: 30px !important;}
     .menu-tab-outer .menu > li:not(:last-child) {border-bottom: none;}
+    .heading {line-height: 1.375;}
+    .details-inner-top {display: block;}
+    .details-top-right {text-align: center; margin-top: .5rem;}
+    .details-top-left {padding-left: 0px; text-align: center;}
 }
 @media(max-width: 767px){
     .heading-large {font-size: 2.5rem;}
@@ -214,6 +219,8 @@
     .menu-tab-outer {margin: 0 -15px;}
     .menu-tab-outer .menu {padding: 0 15px;}
     .pitch-info-main .pitch-actions {position: static; margin-top: 1rem; margin-left: -5px;}
+    .milestone-item .mile-desc {max-width: 42%;}
+    .milestone-item .mile-amount {max-width: 22%;}
 }
 @media(max-width: 699px){
     .header-search-box {display: none;}
@@ -255,6 +262,12 @@
     .mobile-flex {display: flex;}
     .mobile-flex .more-items {margin-left: 10px;}
     .pitch-info-main .pitch-actions {margin-left: 0;}
+    .details-top-left .heading-main {display: block; margin-right: 0; margin-bottom: 0.25rem;}
+    .details-panel {width: 100%;}
+    .milestone-item {display: block;}
+    .milestone-item .mile-desc, .milestone-item .mile-amount {max-width: 100%; margin: 0;}
+    .milestone-item > div {margin-bottom: 0.75rem !important;}
+    .bottom-action, .bottom-nav-right {text-align: center !important; }
 }
 @media(max-width: 479px){
     .head-actions-box {display: none;}
@@ -344,6 +357,8 @@
     .project-filter-panel > .flex {display: block;}
     .pro-filter-item {margin-left: 0; margin-right: 10px;}
     .pro-filter-left {margin-bottom: 10px;}
+    .project-list-info .project-item-label {margin-right: 50px;}
+    .project-freelancer-action {position: static; opacity: 1; margin-top: 1rem;}
 }
 @media(max-width: 767px){
     .faq-left {margin-right: 0;}
@@ -399,6 +414,8 @@
     .user-meta-item:nth-child(4) {margin-top: 20px;}
     .dashboard-full-main .project-tab-panel .menu {display: block;}
     .dash-head-search {display: none !important;}
+    .my-project-group .project-list-meta {flex-wrap: wrap;}
+    .my-project-group .project-list-meta .project-budget, .my-project-group .project-list-meta .project-pitches {width: 50%; max-width: 50%; margin-top: 1rem;}
 }
 @media(max-width: 479px){
     .fact-info br {display: none;}
