@@ -8,7 +8,7 @@
         $(".modal-full").removeClass("active");
         $(".modal-full"+$(this).data('target')).addClass("active");
     });
-    $(".modal-close").on("click", function(e){
+    $(".modal-close, .modal-close-action").on("click", function(e){
         e.preventDefault()
         $(this).closest(".modal-full").removeClass("active");
     });
