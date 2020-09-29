@@ -603,7 +603,7 @@ line-height: 20px;
 .profile-actions-box {white-space: nowrap;}
 .profile-action-item .btn {font-size: .875rem; font-weight: 500; height: 48px;}
 .profile-action-item .btn-primary {min-width: 130px; padding-top: 0.875em;}
-.profile-action-item {display: inline-block; margin-left: .75rem; white-space: normal;}
+.profile-action-item {display: inline-block; margin-left: .75rem; white-space: normal; vertical-align: top;}
 .btn-action {width: 48px;}
 .profile-title-actions {margin-bottom: 10px;}
 .profile-info-des {
@@ -1962,8 +1962,10 @@ font-size: .875rem !important;
 .details-body .project-list-item {background-color: transparent !important;}
 .details-top {padding: 20px 0; border-bottom: 1px solid #dcdcdc;}
 .details-body {padding: 1.5rem 0;}
-.details-body .detail-data-group:first-child {padding-top: 0;}
-.details-body .detail-data-group + .detail-data-group {margin-top: 0;}
+.details-body .detail-data-group:first-child, .pitch-detail-view .detail-data-group:first-child {padding-top: 0;}
+.details-body .detail-data-group + .detail-data-group, .pitch-detail-view .detail-data-group + .detail-data-group {margin-top: 0;}
+.pitch-detail-view {margin-bottom: 3rem;}
+.pitch-detail-top {}
 .posted-verified {font-weight: 500;}
 .project-freelancer-action {opacity: 0;}
 .project-list-item:hover .project-freelancer-action {opacity: 1;}

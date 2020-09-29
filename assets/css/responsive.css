@@ -359,6 +359,7 @@
     .pro-filter-left {margin-bottom: 10px;}
     .project-list-info .project-item-label {margin-right: 50px;}
     .project-freelancer-action {position: static; opacity: 1; margin-top: 1rem;}
+    /* .pitch-detail-top {display: block;} */
 }
 @media(max-width: 767px){
     .faq-left {margin-right: 0;}
