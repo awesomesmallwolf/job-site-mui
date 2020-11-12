@@ -1,0 +1,27 @@
+:root {
+    --color-primary: #006df5;
+    --color-dark: #00152d;
+    --color-dark2: #072b54; 
+    --color-blak: #000;
+    --color-white: #fff;
+    --color-grey: #e0e0e0;
+    --color-grey2: #f0f0f0;
+    --color-light: #7d7d7d;
+    --color-green: #5bb000;
+}
+@media(max-width: 767px){
+    .promocode-box > .info-item {display: block !important;}
+}
+@media(max-width: 575px){
+    .modal-full {background-color: #fff;}
+    .modal-box {left: 0; top: 0; width: 100%; height: 100%; transform: translate(0,0); border-radius: 0;}
+}
+@media(max-width: 479px){
+    .modal-body {padding: 35px 20px 20px; }
+}
+@media(max-width: 767px){
+    .modal-info-full .modal-box {width: 90%;}
+}
+@media(max-width: 575px){
+    .modal-info-full .modal-box {width: 100%;}
+}

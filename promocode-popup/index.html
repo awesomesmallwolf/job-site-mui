@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>Ureed.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="assets/css/style-rtl.css" /> -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+    
+    <div class="container">
+        <a href="#" class="btn btn-primary btn-pitch modal-toggle" data-target="#modal-payment"> Click here</a>
+    </div>
+<!-- pitch modal -->
+<div class="modal-full modal-info-full" id="modal-payment">
+    <div class="modal-box">
+        <span class="modal-close"><i class="icon-close"></i></span>
+        <div class="modal-header modal-info-header bg-light">
+            <div class="title">Confirm release payment</div>
+        </div>
+        <div class="modal-body modal-info-body">
+            <div class="payment-onfo-box">
+                <div class="info-item d-flex">
+                    <div class="info-item-left flex-auto">Total amount to be paid:</div>
+                    <div class="info-item-right"><strong>$30</strong></div>
+                </div>
+                <div class="info-item d-flex">
+                    <div class="info-item-left flex-auto">Promo code discount:</div>
+                    <div class="info-item-right"><strong>$0</strong></div>
+                </div>
+                <div class="info-item d-flex">
+                    <div class="info-item-left flex-auto">Total amount to be deducted from wallet:</div>
+                    <div class="info-item-right"><strong>$30</strong></div>
+                </div>
+            </div>
+            <div class="promocode-box">
+                <div class="info-item d-flex">
+                    <div class="info-item-left flex-auto promocode-left">
+                        <p>Enter promo code (optional):</p>
+                        
+                        <p class="text-success">Congrats! Promo code applied successfully. You still get (9) projects to apply this promo code</p>
+                        <p class="text-danger">Looks like you have reached the maximum number of times</p>
+                    </div>
+                    <div class="info-item-right">
+                        <div class="promocode-form-box d-flex">
+                            <div class="promocode-input flex-auto"><input type="text" class="form-control input-promocode" placeholder="eg: XB76352"> </div>
+                            <div class="promocode-button"><button type="button" class="apply-btn">Apply code</button> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="promocode-bottom text-right">
+                <button type="button" class="btn btn-primary">Release payment</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //pitch modal -->
+<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    
+    
+    </script>
+</body>
+</html>
