@@ -39,7 +39,8 @@ button {outline: none !important;}
 .icon-arrow-right:after {content: ''; display: block; border-top: 2px solid var(--color-primary); border-right: 2px solid var(--color-primary); width: 9px; height: 9px; transform: rotate(45deg); transition: .2s;} 
 .btn:hover .icon-arrow-right:after {border-color: var(--color-white);}
 .btn-primary .icon-arrow-right:after {border-color: var(--color-white);}
-
+.colored-price {color: #4DD09A!important;}
+.text-success {color: #4DD09A!important;}
 
 /* modal */
 .modal-full {position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 999; background-color: rgba(0, 0, 0, 0.5); overflow: auto; display: none;}
